@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('../../node_modules/swiper/swiper-bundle.min.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
 @import url('./sections/section-hero.css');
