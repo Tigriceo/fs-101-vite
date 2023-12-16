@@ -7,7 +7,8 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/fs-101-vite/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/fs-101-vite/assets/index-5f5c68fe.css">
+    <link rel="modulepreload" crossorigin href="/fs-101-vite/assets/vendor-527b82d5.js">
+    <link rel="stylesheet" href="/fs-101-vite/assets/index-d31030a8.css">
   </head>
   <body>
     <header class="header">
@@ -28,6 +29,25 @@
       <section class="hero">
     <div class="container">
         <h1 class="title">ЗАГОЛОВОК</h1>
+
+        <!-- Slider main container -->
+        <div class="swiper hero-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+        
+            </div>
+            <!-- If we need pagination -->
+            <ul class="swiper-pagination"></ul>
+
+            <!-- If we need navigation buttons -->
+            <button type="button" class="swiper-button-prev"></button>
+            <button type="button" class="swiper-button-next"></button>
+
+        </div>
     </div>
 </section>
       <section>
@@ -90,6 +110,13 @@
         ФУТЕР
     </div>
 </footer>
+
+    <!-- https://nodejs.org/en -->
+    <!-- https://gitforwindows.org/ -->
+    <!-- https://github.com/goitacademy/vanilla-app-template -->
+    <!-- https://www.npmjs.com/ -->
+    <!-- https://swiperjs.com/ -->
+    
     
   </body>
 </html>
